@@ -1,5 +1,5 @@
 import About from "../pageElements/about"
-import "../pageElements/aboutpage.css"
+import "../styles/aboutpage.css"
 import { useLayoutEffect } from "react"
 
 const AboutPage = () => {

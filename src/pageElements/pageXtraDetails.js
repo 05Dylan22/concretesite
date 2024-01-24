@@ -1,4 +1,4 @@
-import "../pageElements/pageXtraDetails.css"
+import "../styles/pageXtraDetails.css"
 
 const PageXtraDetails = ({lineTitle, info, info2}) => {
   return (

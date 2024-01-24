@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../pageElements/404.css"
+import "../styles/404.css"
 import { useLayoutEffect } from "react"
 import TestimonialSect from "../pageElements/testimonialSect"
 

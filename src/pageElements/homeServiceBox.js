@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../pageElements/homeServiceBox.css"
+import "../styles/homeServiceBox.css"
 
 const HomeServiceBox = ({title, desc, img, destination}) => {
   return (

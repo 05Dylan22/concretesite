@@ -1,5 +1,5 @@
-import "./pageElements/header.css"
-import "./pageElements/footer.css"
+import "./styles/header.css"
+import "./styles/footer.css"
 import HomePage from "./pages/homePage";
 import AboutPage from "./pages/aboutPage";
 import AllServicesPage from "./pages/allServicesPage";

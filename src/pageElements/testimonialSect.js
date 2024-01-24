@@ -1,5 +1,5 @@
 import Testimonial from "./testimonial"
-import "../pageElements/testimonialSect.css"
+import "../styles/testimonialSect.css"
 
 const TestimonialSect = () => {
   const testimonialDetails = [

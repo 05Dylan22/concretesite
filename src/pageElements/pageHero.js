@@ -1,4 +1,4 @@
-import "../pageElements/pageHero.css"
+import "../styles/pageHero.css"
 
 const PageHero = ({title, img}) => {
   return (

@@ -1,4 +1,4 @@
-import "./servicePageReview.css"
+import "../styles/servicePageReview.css"
 
 const ServicePageReview = ({customer, image, alt, review}) => {
   return (

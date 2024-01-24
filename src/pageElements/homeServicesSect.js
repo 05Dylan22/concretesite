@@ -1,5 +1,5 @@
 import HomeServiceBox from "./homeServiceBox"
-import "../pageElements/homeServiceSect.css"
+import "../styles/homeServiceSect.css"
 
 const HomeServicesSect = ({title}) => {
   const homeServiceBoxDetails = [

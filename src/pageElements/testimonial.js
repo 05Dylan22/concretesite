@@ -1,4 +1,4 @@
-import "../pageElements/testimonial.css"
+import "../styles/testimonial.css"
 
 const Testimonial = ({imgSrc, personName, review}) => {
   return (

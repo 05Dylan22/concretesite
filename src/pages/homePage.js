@@ -1,5 +1,5 @@
 import HpContent from "../pageElements/hpContent"
-import "../pageElements/hpContent.css"
+import "../styles/hpContent.css"
 import { useLayoutEffect } from "react"
 
 const HomePage = () => {

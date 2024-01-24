@@ -4,7 +4,6 @@ import PageXtraDetails from "./pageXtraDetails"
 import SidebarCTA from "./sidebarCTA"
 import TestimonialSect from "./testimonialSect"
 import {useState, useEffect, useRef} from "react"
-import {HashLink} from "react-router-hash-link"
 
 const HpContent = () => {
   const loopItems = [
