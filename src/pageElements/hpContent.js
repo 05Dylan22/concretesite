@@ -3,7 +3,7 @@ import LoopItem from "./loopItem"
 import PageXtraDetails from "./pageXtraDetails"
 import SidebarCTA from "./sidebarCTA"
 import TestimonialSect from "./testimonialSect"
-import {useState, useEffect, useRef} from "react"
+import {useState, useEffect} from "react"
 
 const HpContent = () => {
   const loopItems = [
@@ -49,7 +49,7 @@ const HpContent = () => {
       setShowElement(loopElements[loopNumber])
       setLoopNumber(loopNumber + 1)
       if (loopNumber === 3) setLoopNumber(0)
-    },3500)
+    },4500)
   }
 
   useEffect(() => {
@@ -64,11 +64,11 @@ const HpContent = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
       <PageXtraDetails lineTitle={"Why Choose Us"} info={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."} info2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}/>
-      {/* <div className="loop-wrapper">
-        <div className="auto-loop-projects">
-          {showElement}
-        </div>
-      </div> */}
+      {/* {<div className="loop-wrapper"> */}
+        {/* <div className="auto-loop-projects"> */}
+          {/* {showElement} */}
+        {/* </div> */}
+      {/* </div>} */}
       <SidebarCTA title={"View More Projects!"} des={"Excepteur sint occaecat, mollit anim id est laborum."} cta={"View Projects"} linkDestination={"/projects"} hash={false}/>
       <HomeServicesSect title={"Here's How We Can Help You"}/>
       <TestimonialSect/>
