@@ -1,0 +1,70 @@
+.page-hero {
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.page-title {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.page-title > p {
+  color: rgb(253,96,20);
+}
+
+@media screen and (min-width: 270px){
+  .page-hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+
+  .page-title {
+    width: 65%;
+    height: 35%;
+  }
+
+  .page-title > p {
+    font-size: 11vw;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .page-title {
+    width: 350px;
+    height: 175px;
+  }
+
+  .page-title > p {
+    font-size: 56px;
+    font-weight: 900;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .page-hero {
+    height: 400px;
+  }
+
+  .page-title {
+    width: 450px;
+    height: 275px;
+  }
+
+  .page-title > p {
+    font-size: 64px;
+    font-weight: 900;
+  }
+}

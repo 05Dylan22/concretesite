@@ -1,0 +1,178 @@
+.home-hero {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  background-image: url(https://assets.skyfilabs.com/images/mail/concrete-work.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 65px;
+  margin-top: 18px;
+}
+
+.home-hero > h1 {
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 2px black, -2px -2px 2px black;
+}
+
+.home-hero > p {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black, -2px -2px 2px black;
+}
+
+.home-why-us-sect-title > p {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(253,96,20);
+  margin: 0;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.loop-wrapper {
+  height: 750px;
+  display: grid;
+  align-items: center;
+}
+
+.auto-loop-projects {
+  width: 60vw;
+  height: 550px;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+  overflow: hidden;
+  resize: none;
+}
+
+.loop-item {
+  min-height: 450px;
+  max-height: 450px;
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  resize: none;
+  opacity: 0.45;
+  filter: blur(2px);
+  animation: fadeIn 3.75s ease-in-out;
+}
+
+
+.auto-img-container {
+  height: 500px;
+  height: 100%;
+  resize: none;
+}
+
+.auto-img-container > img {
+  width: 500px;
+  height: 450px;
+  max-height: 450px;
+  margin-right: 25px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.45;
+    filter: blur(2px);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+
+  100% {
+    opacity: 0.45;
+    filter: blur(2px);
+  }
+}
+
+.client {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 18px;
+  width: 300px;
+  max-height: 450px;
+}
+
+.client > img {
+  scale: 0.75;
+  border-radius: 1000px;
+  border: 1px solid white;
+  margin-bottom: 15px;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.client > p {
+  margin: 0;
+  height: 350px;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.quote, .quote2 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.quote2 {
+  margin-left: 92%;
+}
+
+@media screen and (min-width: 270px) {
+  .home-hero {
+    display: grid;
+    height: 400px;
+  }
+
+  .home-hero > h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .home-hero > p {
+    width: 200px;
+    font-size: 14px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .home-hero {
+    display: flex;
+  }
+
+  .home-hero > p {
+    width: 300px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .home-hero > h1 {
+    font-size: 46px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .home-hero > h1 {
+    font-size: 64px;
+  }
+
+  .home-hero > p {
+    font-size: 24px;
+    width: 600px;
+  }
+}

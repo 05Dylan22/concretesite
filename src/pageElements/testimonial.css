@@ -1,0 +1,177 @@
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(242, 242, 242);
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 12px;
+}
+
+.testimonial-person {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-person > img{
+  border-radius: 400px;
+}
+
+.testimonial-person > p {
+  font-weight: bold;
+  margin: 0;
+  margin-left: 14px;
+}
+
+.testimonial-review {
+  margin: 0;
+  position: relative;
+}
+
+.testimonial-quote, .testimonial-quote2 {
+  position: absolute;
+}
+
+@media screen and (min-width: 270px) {
+  .testimonial {
+    height: 150px;
+    width: 95vw;
+  }
+
+  .testimonial-person > img {
+    min-height: 55px;
+    min-width: 55px;
+    max-height: 55px;
+    max-width: 55px;
+    margin-left: 4px;
+  }
+
+  .testimonial-person > p {
+    font-size: 10px;
+  }
+
+  .testimonial-review {
+    font-size: 10px;
+    line-height: 15px;
+    margin-right: 4px;
+    margin-left: 14px;
+    width: 70%;
+  }
+
+  .testimonial-quote, .testimonial-quote2 {
+    font-size: 34px;
+  }
+
+  .testimonial-quote {
+    top: 0px;
+    left: -20px;
+  }
+  
+  .testimonial-quote2 {
+    bottom: -3px;
+    right: -5px;
+  }
+}
+
+@media screen and (min-width: 325px) {
+  .testimonial-review {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .testimonial-review {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .testimonial {
+    height: 200px;
+  }
+  
+  .testimonial-person > img {
+    max-width: none;
+    max-height: none;
+    height: 100px;
+    width: 100px;
+  }
+
+  .testimonial-person > p {
+    font-size: 14px;
+  }
+
+  .testimonial-review {
+    font-size: 17.5px;
+    line-height: 26px;
+  }
+
+  .testimonial-quote2 {
+    right: 1px;
+  }
+}
+
+@media screen and (min-width: 675px) {
+  .testimonial {
+    width: 80vw;
+  }
+
+  .testimonial-review {
+    font-size: 18px;
+  }
+
+  .testimonial-quote2 {
+    right: -2px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .testimonial {
+    height: 200px;
+    width: 80vw;
+  }
+
+  .testimonial-person > img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .testimonial-person > p {
+    font-size: 15px;
+  }
+
+  .testimonial-review {
+    font-size: 20px;
+    width: 60%;
+    line-height: 28px;
+  }
+
+  .testimonial-quote, .testimonial-quote2 {
+    font-size: 64px;
+  }
+
+  .testimonial-quote {
+    top: -6px;
+    left: -30px;
+  }
+  
+  .testimonial-quote2 {
+    bottom: -4px;
+    right: -14px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .testimonial-review {
+    line-height: 32px;
+    font-size: 28px;
+  }
+
+  .testimonial-quote {
+    top: -10px;
+  }
+
+  .testimonial-quote2 {
+    bottom: 0;
+  }
+}

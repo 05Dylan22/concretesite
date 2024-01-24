@@ -1,0 +1,91 @@
+.container-404 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.heading-404 {
+  color: rgb(253,96,20);
+  margin: 0;
+}
+
+.button-404 {
+  background-color: transparent;
+  color: rgb(253,96,20);
+  font-weight: bold;
+  transition: all 0.15s;
+}
+
+.button-404:hover {
+  color: white;
+  background-color: rgb(253,96,20);
+}
+
+@media screen and (min-width: 270px) {
+  .container-404 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 65vw;
+  }
+
+  .heading-404 {
+    font-size: 24px;
+  }
+
+  .subhead-404 {
+    font-size: 14px;
+  }
+
+  .button-404 {
+    height: 24px;
+    width: 100px;
+    border: 2px solid rgb(253,96,20);
+    font-size: 12px;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .container-404 {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 65vw;
+  }
+
+  .heading-404 {
+    font-size: 36px;
+  }
+
+  .subhead-404 {
+    font-size: 20px;
+  }
+
+  .button-404 {
+    height: 32px;
+    width: 150px;
+    border: 3px solid rgb(253,96,20);
+    font-size: 14px;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container-404 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 65vw;
+  }
+
+  .heading-404 {
+    font-size: 54px;
+  }
+
+  .button-404 {
+    height: 45px;
+    width: 200px;
+    border: 3px solid rgb(253,96,20);
+    font-size: 22px;
+    border-radius: 4px;
+  }
+}

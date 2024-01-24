@@ -1,0 +1,28 @@
+.home-advisor-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 270px) {
+  .home-advisor-div {
+    height: 200px;
+  }
+
+  .home-advisor-div > img {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  .home-advisor-div {
+    height: 350px;
+  }
+
+  .home-advisor-div > img {
+    height: 150px;
+    width: 150px;
+  }
+}

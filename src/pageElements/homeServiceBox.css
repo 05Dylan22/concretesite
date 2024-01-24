@@ -1,0 +1,128 @@
+.home-service-box {
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 2px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 3px 2px rgba(0, 0 , 0, 0.15), -1.5px -1.5px 2px rgba(0, 0 , 0, 0.15);
+  transition: all 0.15s;
+}
+
+.home-service-box:hover {
+  scale: 1.05;
+}
+
+.service-box-details-div {
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.color-hover-service-box {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0.5px);
+}
+
+.color-hover-service-box:hover {
+  background-color: rgba(255, 85, 0, 0.35);
+}
+
+.home-service-box-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.home-service-box-desc {
+  margin: 0;
+}
+
+@media screen and (min-width: 270px) {
+  .home-service-box {
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 18px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .home-service-box-title {
+    margin-left: 12px;
+  }
+
+  .home-service-box-desc {
+    margin-left: 12px;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .home-service-box {
+    width: 45vw;
+    height: 45vw;
+    max-width: 400px;
+  }
+
+  .service-box-details-div {
+    height: 100px;
+  }
+
+  .home-service-box-title {
+    font-size: 19px;
+  }
+
+  .home-service-box-desc {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:730px) {
+  .home-service-box-title {
+    font-size: 19px;
+  }
+
+  .home-service-box-desc {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width:870px) {
+  .home-service-box-title {
+    font-size: 21px;
+  }
+
+  .home-service-box-desc {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .home-service-box {
+    height: 300px;
+    max-width: 400px;
+  }
+
+  .service-box-details-div {
+    height: 125px;
+    width: 90%;
+    margin-left: 7px;
+    margin-bottom: 7px;
+  }
+
+  .home-service-box-title {
+    font-size: 26px;
+    margin: auto;
+    line-height: 26px;
+    margin-left: 16px;
+  }
+
+  .home-service-box-desc {
+    margin-left: 16px;
+    font-size: 15px;
+  }
+}
